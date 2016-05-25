@@ -12,14 +12,15 @@ The example project using Node.js, Bower, Express, and MongoDB
 
 ### Running ###
 1. open mongo server using command below:
-~~~
-mongod
-~~~
 
-2. use this command for running: 
-~~~
-npm start
-~~~
+    ~~~
+    mongod
+    ~~~
+
+2. use this command for running  
+    ~~~
+    npm start
+    ~~~
 
 ### Test CRUD of User model ###
 path for test: **http://localhost:3000/users**
