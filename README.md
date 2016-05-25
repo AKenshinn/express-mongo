@@ -1,7 +1,7 @@
 Express Mongo
 =============
 
-The example project using Node.js, Express, and MongoDB
+The example project using Node.js, Bower, Express, and MongoDB
 
 ### Configuration for running ###
 1. Open mongo for wait connection using this command below:
@@ -26,5 +26,12 @@ The example project using Node.js, Express, and MongoDB
 ### Running ###
 using command below:
 ~~~
+mongod
+~~~
+
+~~~
 npm start
 ~~~
+
+### Test CRUD of User model ###
+path for test: **http://localhost:3000/users**
