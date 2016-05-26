@@ -22,8 +22,8 @@ block content
                                     input(type="hidden", name="_method" value="delete")
                                     button.btn.btn-sm.btn-danger(type="submit") Delete
                                 div(style="display:inline;") &nbsp;
-                                button.btn.btn-sm.btn-info(type="button", data-toggle="modal", data-target="#update") Edit
-                        div.modal.fade#update(tabindex="-1", role="dialog")
+                                button.btn.btn-sm.btn-info(type="button", data-toggle="modal", data-target="#update#{i+1}") Edit
+                        div.modal.fade(tabindex="-1", role="dialog", id="update#{i+1}")
                             div.modal-dialog
                                 div.modal-content
                                     form(method="POST", action="/users/#{user._id}/edit", enctype='application/x-www-form-urlencoded')
