@@ -1,8 +1,7 @@
 var mongoose = require('mongoose');
 
 var userSchema = new mongoose.Schema({
-    email: String,
-    __v: { type: Number, default: 0 }
+    email: String
 });
 
 var User = mongoose.model('User', userSchema);
